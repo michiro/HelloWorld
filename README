@@ -1,0 +1,10 @@
+androidで動作するHelloWorld。surfaceViewを使ったバージョン。
+
+コンパイル方法(android-sdk r14以降が必要)
+ant debug
+
+エミュレータへのインストール
+adb -e bin/HelloWorld1-debug.apk
+
+実機へのインストール
+adb -d bin/HelloWorld1-debug.apk
